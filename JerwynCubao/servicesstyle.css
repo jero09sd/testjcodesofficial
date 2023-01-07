@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/bglogo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: black;
+}
+
+#content {
+    padding: 25px;
+}
+
+nav {
+    text-align: center;
+    align-items: center;
+}
+nav .sub-content .logo{
+    width: 70px;
+    height: 100px;
+    border-radius: 25px ;
+    background: url(images/logosample.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    margin-top: 0px;
+}
+#menu {
+    display: none;
+}
+
+nav .sub-content li {
+    display: inline-block;
+}
+
+nav .sub-content li a {
+    display: inline-block;
+    color: #eee;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+nav .sub-content li:hover a {
+    color: rgb(248, 52, 52)
+}
+
+nav .sub-content li.btn a {
+    display: inline-block;
+    border: 1px solid rgb(117, 2, 2);
+    padding: 20px;
+    border-radius: 16px;
+}
+
+nav .sub-content li.btn:hover a {
+    border: 1px solid transparent;
+    padding: 20px;
+    border-radius: 16px;
+    color: blanchedalmond;
+    box-shadow: 0px 0px 50px rgba(117, 2, 2, 0.3),
+        0px 0px 70px rgba(117, 2, 2, 0.3), 
+        0px 0px 900px rgba(117,2,2,0.3);
+}
+
+.sub-content .contact-me {
+    color: rgb(248, 52, 52);
+}
+#services{
+    color: white;
+    padding: 10px;
+    justify-content: space-between;
+    margin: 25px;
+}
+h2{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.red{
+    color: rgb(248, 52, 52);
+}
+#services .box{
+    font-size: 25px;
+    display: inline-block;
+    align-items: center;
+    margin-left: 250px;
+    text-align: center;
+    margin-top: 10px;
+}
+#services .box h5{
+    font-size: 25px;
+}
+#services .web{
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255, 255, 255, 0.5));
+    padding: 25px;
+    border: none;
+    border-radius: 25px;
+    max-width: 300px;
+}
+#services .text{
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 20px;
+    color: black;
+}
+ button{
+    border: none;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.3));
+    padding: 20px;
+    border-radius: 16px;
+    color: rgba(248, 52, 52, 0.9);
+    font-size: 25px;
+    font-weight: 1000;
+    margin-top: 75px;
+}
+ p{
+    font-size: 15px;
+    max-width: 1000px;
+}
+button:hover{
+    box-shadow: 0px 0px 50px rgba(255, 255, 255, 0.3),
+        0px 0px 700px rgba(255, 255, 255, 0.3), 
+        0px 0px 900px rgba(255, 255, 255, 0.3);
+        background: transparent;
+}

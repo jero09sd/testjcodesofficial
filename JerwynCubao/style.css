@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/bglogo-Recovered2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: black;
+}
+
+#content {
+    padding: 25px;
+}
+nav {
+    text-align: center;
+    align-items: center;
+}
+nav .sub-content .logo{
+    width: 70px;
+    height: 100px;
+    border-radius: 25px ;
+    background: url(images/logosample.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    margin-top: 0px;
+}
+nav .sub-content li {
+    display: inline-block;
+}
+
+nav .sub-content li a {
+    display: inline-block;
+    color: #eee;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+nav .sub-content li:hover a {
+    color: rgb(248, 52, 52)
+}
+
+nav .sub-content li.btn a {
+    display: inline-block;
+    border: 1px solid rgb(117, 2, 2);
+    padding: 20px;
+    border-radius: 16px;
+}
+
+nav .sub-content li.btn:hover a {
+    border: 1px solid transparent;
+    padding: 20px;
+    border-radius: 16px;
+    color: blanchedalmond;
+    box-shadow: 0px 0px 50px rgba(117, 2, 2, 0.3),
+        0px 0px 70px rgba(117, 2, 2, 0.3), 
+        0px 0px 900px rgba(117,2,2,0.3);
+}
+
+.sub-content .contact-me {
+    color: rgb(248, 52, 52);
+}
+
+.container {
+    padding-top: 190px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    align-items: center;
+}
+
+.container .personal-info {
+    margin-bottom: 20px;
+}
+
+.container .personal-info h1 {
+    color: white;
+    font-size: 47px;
+    font-weight: 900;
+    line-height: 1.2;
+    margin: 20px 0 20px;
+}
+
+.container .personal-info h1 .name {
+    color: #da2202;
+}
+
+.container .personal-info h3 {
+    color: #eee;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.container .personal-info p {
+    color: #eee;
+    font-weight: 400;
+    max-width: 800px;
+}
+
+.copyrights {
+    margin-top: 250px;
+}
+
+.copyrights p {
+    color: #eee;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+#menu {
+    display: none;
+}
